@@ -1,0 +1,28 @@
+import cv2
+import matplotlib.pyplot as plt
+
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
+smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_smile.xml')
+
+img = cv2.imread('image.jpg')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+
+for (x, y, w, h) in faces:
+    cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+    roi_g = gray[y:y+h, x:x+w]
+    roi_c = img[y:y+h, x:x+w]
+    
+    eyes = eye_cascade.detectMultiScale(roi_g, 1.1, 8)
+    for (ex, ey, ew, eh) in eyes:
+        cv2.rectangle(roi_c, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
+        
+    smiles = smile_cascade.detectMultiScale(roi_g, 1.8, 20)
+    for (sx, sy, sw, sh) in smiles:
+        cv2.rectangle(roi_c, (sx, sy), (sx + sw, sy + sh), (0, 0, 255), 2)
+
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+plt.title("Detected: Face (Blue), Eyes (Green), Smile (Red)")
+plt.axis('off')
+plt.show()

@@ -1,0 +1,44 @@
+# Computer Vision Lab - Set 02
+
+| # | Program File | Output Screenshot |
+|---|---|---|
+| 01 | [`prog01_canny_edge_detection.py`](prog01_canny_edge_detection.py) | [`output_01.png`](output_01.png) |
+| 02 | [`prog02_histogram_equalization.py`](prog02_histogram_equalization.py) | [`output_02.png`](output_02.png) |
+| 03 | [`prog03_image_rotation_90_180_270.py`](prog03_image_rotation_90_180_270.py) | [`output_03.png`](output_03.png) |
+| 04 | [`prog04_sobel_edge_detection.py`](prog04_sobel_edge_detection.py) | [`output_04.png`](output_04.png) |
+| 05 | [`prog05_morphological_erosion_dilation.py`](prog05_morphological_erosion_dilation.py) | [`output_05.png`](output_05.png) |
+| 06 | [`prog06_affine_perspective_transform.py`](prog06_affine_perspective_transform.py) | [`output_06.png`](output_06.png) |
+| 07 | [`prog07_harris_corner_detection.py`](prog07_harris_corner_detection.py) | [`output_07.png`](output_07.png) |
+| 08 | [`prog08_video_playback_speed.py`](prog08_video_playback_speed.py) | [`output_08.png`](output_08.png) |
+| 09 | [`prog09_harris_corner_detection.py`](prog09_harris_corner_detection.py) | [`output_09.png`](output_09.png) |
+| 10 | [`prog10_image_resizing_interpolation.py`](prog10_image_resizing_interpolation.py) | [`output_10.png`](output_10.png) |
+| 11 | [`prog11_haar_face_detection.py`](prog11_haar_face_detection.py) | [`output_11.png`](output_11.png) |
+| 12 | [`prog12_threshold_segmentation.py`](prog12_threshold_segmentation.py) | [`output_12.png`](output_12.png) |
+| 13 | [`prog13_sobel_directional_magnitude.py`](prog13_sobel_directional_magnitude.py) | [`output_13.png`](output_13.png) |
+| 14 | [`prog14_reverse_video_sequence.py`](prog14_reverse_video_sequence.py) | [`output_14.png`](output_14.png) |
+| 15 | [`prog15_morphological_erosion_dilation.py`](prog15_morphological_erosion_dilation.py) | [`output_15.png`](output_15.png) |
+| 16 | [`prog16_draw_corner_boxes.py`](prog16_draw_corner_boxes.py) | [`output_16.png`](output_16.png) |
+| 17 | [`prog17_histogram_equalization.py`](prog17_histogram_equalization.py) | [`output_17.png`](output_17.png) |
+| 18 | [`prog18_image_rotation_90_180_270.py`](prog18_image_rotation_90_180_270.py) | [`output_18.png`](output_18.png) |
+| 19 | [`prog19_facial_features_detection.py`](prog19_facial_features_detection.py) | [`output_19.png`](output_19.png) |
+| 20 | [`prog20_affine_perspective_transform.py`](prog20_affine_perspective_transform.py) | [`output_20.png`](output_20.png) |
+| 21 | [`prog21_visible_text_watermark.py`](prog21_visible_text_watermark.py) | [`output_21.png`](output_21.png) |
+| 22 | [`prog22_rgb_histogram_analysis.py`](prog22_rgb_histogram_analysis.py) | [`output_22.png`](output_22.png) |
+| 23 | [`prog23_video_playback_speed.py`](prog23_video_playback_speed.py) | [`output_23.png`](output_23.png) |
+| 24 | [`prog24_morphological_opening_closing.py`](prog24_morphological_opening_closing.py) | [`output_24.png`](output_24.png) |
+| 25 | [`prog25_roi_manipulation.py`](prog25_roi_manipulation.py) | [`output_25.png`](output_25.png) |
+| 26 | [`prog26_vehicle_detection_video.py`](prog26_vehicle_detection_video.py) | [`output_26.png`](output_26.png) |
+| 27 | [`prog27_gaussian_smoothing.py`](prog27_gaussian_smoothing.py) | [`output_27.png`](output_27.png) |
+| 28 | [`prog28_top_hat_black_hat.py`](prog28_top_hat_black_hat.py) | [`output_28.png`](output_28.png) |
+| 29 | [`prog29_color_to_grayscale.py`](prog29_color_to_grayscale.py) | [`output_29.png`](output_29.png) |
+| 30 | [`prog30_video_frame_ocr.py`](prog30_video_frame_ocr.py) | [`output_30.png`](output_30.png) |
+| 31 | [`prog31_background_isolation_color.py`](prog31_background_isolation_color.py) | [`output_31.png`](output_31.png) |
+| 32 | [`prog32_rotate_180_degrees.py`](prog32_rotate_180_degrees.py) | [`output_32.png`](output_32.png) |
+| 33 | [`prog33_canny_edge_detection.py`](prog33_canny_edge_detection.py) | [`output_33.png`](output_33.png) |
+| 34 | [`prog34_image_resizing_interpolation.py`](prog34_image_resizing_interpolation.py) | [`output_34.png`](output_34.png) |
+| 35 | [`prog35_foreground_extraction_color.py`](prog35_foreground_extraction_color.py) | [`output_35.png`](output_35.png) |
+| 36 | [`prog36_draw_rectangle_circle_text.py`](prog36_draw_rectangle_circle_text.py) | [`output_36.png`](output_36.png) |
+| 37 | [`prog37_morphological_erosion.py`](prog37_morphological_erosion.py) | [`output_37.png`](output_37.png) |
+| 38 | [`prog38_watch_object_recognition.py`](prog38_watch_object_recognition.py) | [`output_38.png`](output_38.png) |
+| 39 | [`prog39_rgb_histogram_analysis.py`](prog39_rgb_histogram_analysis.py) | [`output_39.png`](output_39.png) |
+| 40 | [`prog40_reverse_video_slow_motion.py`](prog40_reverse_video_slow_motion.py) | [`output_40.png`](output_40.png) |
